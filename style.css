@@ -1,0 +1,119 @@
+* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B3C8CF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #696569;
+  padding: 3rem;
+  margin: 3rem;
+}
+
+.info_container {
+  border-radius: 35px;
+  background-color: #9e9d94;
+  padding: 40px;
+  width: 110%;
+  margin: 50px 50px 80px;
+}
+
+.container h1 {
+  font-family: "Libre Baskerville", serif;
+}
+
+input {
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 18px;
+  border-radius: 20px;
+  font-family: poppins;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+table {
+  width: 140%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+table th {
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-family: 'Poppins';
+}
+
+.actions button {
+  padding: 9px 17px;
+  margin: 2px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: poppins;
+}
+
+.actions .edit {
+  background: #2196F3;
+  color: white;
+}
+
+.actions .delete {
+  background: #F44336;
+  color: white;
+}
+
+.actions .edit:hover {
+  background: #1377c9;
+
+}
+
+.actions .delete:hover {
+  background: #be261b;
+}
